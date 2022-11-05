@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms Demo</title>
+</head>
+<body bgcolor="#CBC3E3">
+	<form>
+		<label for="fname">First Name:</label><br>
+		<input type="text" name="fname" placeholder="First Name" required><br>
+		<label for="lname">Last Name:</label><br>
+		<input type="text" name="lname" placeholder="last name" required><br>
+		<label for="phoneno">Phone no:</label><br>
+		<input type="tel" name="phoneno" pattern="[0-9]{10}" placeholder="1234567890" required><br>
+		<label for="gender">Gender:</label><br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<label>Email:</label><br>
+		<input type="email" name="Email" placeholder="abcd@gmail.com" required><br>
+		<label>Skills:</label><br>
+		<input type="checkbox" name="Skills" value="C">C<br>
+		<input type="checkbox" name="Skills" value="python">python<br>
+		<input type="checkbox" name="Skills" value="C++">C++<br>
+		<input type="checkbox" name="Skills" value="java">java<br>
+		<fieldset>
+			<legend>Permanent address:</legend><br>
+			<label>Street Name:</label><br>
+			<input type="text" name="pstreet" placeholder="street name" required><br>
+			<label>District Name Name:</label><br>
+			<input type="text" name="pdistrict" placeholder="district name" required><br>
+			<label>State Name:</label><br>
+			<input type="text" name="pstate" placeholder="state name" required><br>
+		</fieldset>
+		<fieldset>
+			<legend>Temporary address:</legend><br>
+			<label>Street Name:</label><br>
+			<input type="text" name="tstreet" placeholder="street name" required><br>
+			<label>District Name:</label><br>
+			<input type="text" name="tdistrict" placeholder="district name" required><br>
+			<label>State Name:</label><br>
+			<input type="text" name="tstate" placeholder="state name" required><br>
+		</fieldset>
+		<label>Extra Cultural Activities:</label><br>
+		<textarea rows="20" cols="50" placeholder="write something....."></textarea><br>
+		<label>Languages Known:</label><br>
+		<select size="3">
+			<option value="English">English</option><br>
+			<option value="Telugu">Telugu</option><br>
+			<option value="Hindi">Hindi</option><br>
+			<option value="Urdu">Urdu</option><br>
+			<option value="Spanish">Spanish</option><br>
+			<option value="French">French</option><br>
+		</select><br><br>
+		<label>College Name:</label><br>
+		<input type="text" name="cname" placeholder="College Name" required><br>
+		<label>Branch:</label><br>
+		<input list="Branch">
+		<datalist id="Branch">
+			<option value="AI&DS">AI&DS</option><br>
+			<option value="AI&ML">AI&ML</option><br>
+			<option value="CSE">CSE</option><br>
+			<option value="IT">IT</option><br>
+			<option value="ECE">ECE</option><br>
+			<option value="EEE">EEE</option><br>
+			<option value="Mech">Mech</option><br>
+			<option value="Civil">Civil</option><br>
+		</datalist><br>
+		<input type="submit" value="submit">
+		<button>clear</button>
+	</form>
+</body>
+</html>

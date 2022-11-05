@@ -1,0 +1,12 @@
+h1{
+	text-align: center;
+	color: black;
+	background-color: whitesmoke;
+	font-family: cursive;
+}
+p{
+	text-align: center;
+	color: palegoldenrod;
+	background-color: grey;
+	font-size: 30px;
+}
